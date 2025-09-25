@@ -1,0 +1,46 @@
+{
+  "page": 1,
+  "per_page": 2,
+  "total": 2,
+  "total_pages": 1,
+  "data": [
+    {
+      "id": 1,
+      "email": "aman.gem@test.io",
+      "first_name": "Aman",
+      "last_name": "Gem",
+      "is_active": true,
+      "address": {
+        "street": "123 Automation Lane",
+        "city": "Testville",
+        "zipcode": "12345"
+      },
+      "skills": [
+        "Selenium",
+        "Java",
+        "API Automation"
+      ]
+    },
+    {
+      "id": 2,
+      "email": "learner.dev@test.io",
+      "first_name": "Alex",
+      "last_name": "Learner",
+      "is_active": false,
+      "address": {
+        "street": "456 Code Street",
+        "city": "Devburg",
+        "zipcode": "67890"
+      },
+      "skills": [
+        "JMeter",
+        "CI/CD",
+        "Maven"
+      ]
+    }
+  ],
+  "support": {
+    "url": "https://www.your-mentor.com",
+    "text": "To get support, reach out to your friendly mentor!"
+  }
+}
