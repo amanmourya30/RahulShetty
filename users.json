@@ -1,11 +1,7 @@
 {
-  "page": 1,
-  "per_page": 2,
-  "total": 2,
-  "total_pages": 1,
-  "data": [
+  "users": [
     {
-      "id": 1,
+      "id": "1",
       "email": "aman.gem@test.io",
       "first_name": "Aman",
       "last_name": "Gem",
@@ -19,23 +15,6 @@
         "Selenium",
         "Java",
         "API Automation"
-      ]
-    },
-    {
-      "id": 2,
-      "email": "learner.dev@test.io",
-      "first_name": "Alex",
-      "last_name": "Learner",
-      "is_active": false,
-      "address": {
-        "street": "456 Code Street",
-        "city": "Devburg",
-        "zipcode": "67890"
-      },
-      "skills": [
-        "JMeter",
-        "CI/CD",
-        "Maven"
       ]
     }
   ],

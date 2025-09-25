@@ -1,0 +1,14 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "location": "New York",
+      "phone": "123-456-7890",
+      "courses": [
+        "Mathematics",
+        "Science"
+      ]
+    }
+  ]
+}
