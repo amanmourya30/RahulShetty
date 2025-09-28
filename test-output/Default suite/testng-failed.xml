@@ -5,7 +5,9 @@
     <classes>
       <class name="api.Day1.Basics">
         <methods>
+          <include name="updateUserTest"/>
           <include name="createUserTest"/>
+          <include name="deleteTest"/>
         </methods>
       </class> <!-- api.Day1.Basics -->
     </classes>
