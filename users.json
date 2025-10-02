@@ -16,6 +16,23 @@
         "Java",
         "API Automation"
       ]
+    },
+    {
+      "id": "3",
+      "email": "jane.doe@test.io",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "is_active": true,
+      "address": {
+        "street": "101 Test Avenue",
+        "city": "QA City",
+        "zipcode": "33445"
+      },
+      "skills": [
+        "Cypress",
+        "JavaScript",
+        "API Testing"
+      ]
     }
   ],
   "support": {

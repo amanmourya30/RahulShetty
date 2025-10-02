@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.Day1.Basics">
+      <class name="serialDeserial.DemoSerializationAndDeserialization">
         <methods>
-          <include name="updateUserTest"/>
-          <include name="createUserTest"/>
-          <include name="deleteTest"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- api.Day1.Basics -->
+      </class> <!-- serialDeserial.DemoSerializationAndDeserialization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
