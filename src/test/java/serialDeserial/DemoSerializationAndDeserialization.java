@@ -54,4 +54,49 @@ public class DemoSerializationAndDeserialization {
             .statusCode(201)
             .log().all();
     }
+    
+    @Test(priority = 3)
+    void getUsersByID() {
+        User user =given()
+            .baseUri(BASE_URI)
+            .contentType(ContentType.JSON)
+            .log().all()
+        .when()
+            .get("/users/3")
+        .then()
+            .statusCode(200)
+            .log().all().extract().as(User.class);
+        
+        System.out.println(user.getAddress().getCity());
+        System.out.println(user.getFirst_name());
+//        System.out.println(user.getSkills());
+        
+        for(String skill:user.getSkills()) {
+        	System.out.println(skill);
+        }
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

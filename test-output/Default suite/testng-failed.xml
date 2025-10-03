@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="serialDeserial.DemoSerializationAndDeserialization">
+      <class name="dataDrivenExcelAndJSON.DDTexcel">
         <methods>
-          <include name="createUser"/>
+          <include name="deleteUserById"/>
+          <include name="setup"/>
+          <include name="testCreateUserFromExcel" invocation-numbers="0 1 2"/>
+          <include name="printNamesById"/>
+          <include name="verifyDeletionByIds"/>
         </methods>
-      </class> <!-- serialDeserial.DemoSerializationAndDeserialization -->
+      </class> <!-- dataDrivenExcelAndJSON.DDTexcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
