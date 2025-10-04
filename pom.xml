@@ -98,4 +98,27 @@
 		    <version>2.24.1</version>
 		</dependency>
 	</dependencies>
+<build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.5.4</version>
+          <configuration>
+            <suiteXmlFiles>
+          		<suiteXmlFile>ddtexcel.xml</suiteXmlFile>
+        	</suiteXmlFiles>            
+          </configuration>
+        </plugin>
+        
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.14.0</version>
+          
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>
