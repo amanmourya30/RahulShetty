@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDrivenExcelAndJSON.DDTexcel">
+      <class name="ecomEndToEnd.EcomEndToEnd">
         <methods>
-          <include name="deleteUserById"/>
+          <include name="createProduct"/>
           <include name="setup"/>
-          <include name="testCreateUserFromExcel" invocation-numbers="0 1 2"/>
-          <include name="printNamesById"/>
-          <include name="verifyDeletionByIds"/>
+          <include name="loginTest"/>
+          <include name="viewOrderDetails"/>
+          <include name="placeOrderTest"/>
         </methods>
-      </class> <!-- dataDrivenExcelAndJSON.DDTexcel -->
+      </class> <!-- ecomEndToEnd.EcomEndToEnd -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
